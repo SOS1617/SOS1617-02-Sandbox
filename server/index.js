@@ -21,7 +21,7 @@ app.listen(port,(err)=> {
         console.log("Error initializing server on port "+ port + ": " + err );
 });
 
-//Definimos correlación de un recurso. (El resucro es el "/" en este ejemplo)
+//Definimos correlación de un recurso. (El recurso es el "/" en este ejemplo)
 app.get("/",(req,res) => {
     
     res.send("<html><body><h1>Escribe /time al final de la url para saber la hora exacta</h1></body></html>");
