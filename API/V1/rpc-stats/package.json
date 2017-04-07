@@ -1,0 +1,23 @@
+{
+  "name": "0",
+  "version": "1.0.0",
+  "keywords": [],
+  "author": "agamez2@us.es",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "contributors": [],
+  "dependencies": {
+    "body": "^5.1.0",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "helmet": "^3.5.0",
+    "mongodb": "^2.2.25",
+    "nedb": "^1.8.0",
+    "parser": "^0.1.4",
+    "path": "^0.12.7"
+  },
+  "main": "index.js",
+  "license": "ISC",
+  "description": ""
+}
